@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.header {
+  max-width: 1000px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(180, 180, 180);
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.powered{
+  font-size: 29px;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.para {
+  margin: 10px 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  width: 450px;
+}
+
+.team-builder{
+  left: 39%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  top: 30%;
+  text-align: start;
+  border-top: 4px solid #e0504e;
+}
+.karma{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  left: 39%;
+  top: 64%;
+  background-color: white;
+  width: 300px;
+  position: absolute;
+  height: 200px;
+  text-align: start;
+  border-top: 4px solid #fbab45;
+}
+.supervisor{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  text-align: start;
+  border-top: 4px solid #42cecd;
+  position: absolute;
+  top: 44%;
+  left: 15%;
+}
+.calculator{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  width: 300px;
+  position: absolute;
+  height: 200px;
+  top: 44%;
+  text-align: start;
+  border-top: 4px solid #5399e6;
+  left: 63%;
+}
+
+
+.box h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.box p {
+  margin: 10px 0;
+  color: #666;
+  font-size: 12px;
+}
+
+#img-icon{
+  width: 40px;
+  margin-top: 40px;
+}
